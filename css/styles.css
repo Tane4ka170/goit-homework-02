@@ -36,6 +36,14 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+
+.navigation_list_item:focus {
+    color: var(--ocean, #404BBF);
+}
+
+.navigation_list_item:hover {
+    color: var(--ocean, #404BBF);
+}
 .adress_list_item {
     color: var(--slate, #434455);
     font-size: 16px;
@@ -43,7 +51,13 @@ ul {
     line-height: 24px;
     letter-spacing: 0.32px;
 }
+.adress_list_item:hover {
+    color: var(--ocean, #404BBF);
+}
 
+.adress_list_item:focus {
+    color: var(--ocean, #404BBF);
+}
 /* main */
 .hero{
     background: var(--navyblue, #2E2F42);
@@ -65,6 +79,25 @@ h1 {
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:hover {
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button:focus {
+    border-radius: 4px;
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.hero-button-text {
+    color: var(--white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
 }
 
 h3 {
@@ -145,6 +178,16 @@ h2 {
 }
 
 .button-text:hover {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.button-text:focus {
     color: var(--white, #FFF);
     text-align: center;
     font-size: 16px;
