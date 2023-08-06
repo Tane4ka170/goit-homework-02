@@ -21,15 +21,13 @@ ul {
     text-decoration: none;
 }
 .logo-link {
-    color: #4D5AE5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-style: normal;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    line-height: 1.17
+    color: var(--logo-color, #4d5ae5);
 }
 .link-header {
     color: var(--navyblue, #2E2F42);
@@ -190,7 +188,7 @@ ul {
 }
 
 /* portfolio */
-.btn-tab-list {
+.button-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -202,12 +200,12 @@ ul {
     transition: color 0.3s, background-color 0.3s;
 }
 
-.btn-tab-list:hover {
+.button-portfolio:hover {
     color: #FFFFFF;
   background-color: #404BBF;
 }
 
-.btn-tab-list:focus {
+.button-portfolio:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
