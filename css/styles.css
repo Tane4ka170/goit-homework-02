@@ -20,7 +20,7 @@ ul {
 .link {
     text-decoration: none;
 }
-.logo-link-link {
+.logo-link {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -191,38 +191,39 @@ ul {
 
 /* portfolio */
 .btn-tab-list {
-    background: var(--cloud, #F4F4FD);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--text-color, #4d5ae5);
+    background-color: var(--button-bg-color, #F4F4FD);
+    cursor: pointer;
+    transition: color 0.3s, background-color 0.3s;
 }
 
 .btn-tab-list:hover {
-    background: var(--ocean, #404BBF);
+    color: #FFFFFF;
+  background-color: #404BBF;
 }
 
-.button-text {
-    color: var(--iris, #4D5AE5);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+.btn-tab-list:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
-.button-text:hover {
-    color: var(--white, #FFF);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
+.portfolio-title {
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.button-text:focus {
-    color: var(--white, #FFF);
-    text-align: center;
+.portfolio-text {
     font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
 }
