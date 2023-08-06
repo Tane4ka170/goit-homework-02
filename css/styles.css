@@ -7,9 +7,9 @@
 }
 
 body.main {
-    color: #FFFFFF;
+    color: #434455;
+    background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    font-family: 'Raleway', sans-serif;
 }
 
 ul {
@@ -45,11 +45,11 @@ ul {
     list-style: none;
 }
 .list-item {
-    color: #2e2f42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .list-item:focus {
@@ -188,14 +188,18 @@ ul {
 }
 
 /* portfolio */
+body.portfolio {
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+}
 .button-portfolio {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--text-color, #4d5ae5);
-    background-color: var(--button-bg-color, #F4F4FD);
+    color: #4d5ae5;
+    background-color:#F4F4FD;
     cursor: pointer;
 }
 
