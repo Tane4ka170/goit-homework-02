@@ -197,17 +197,16 @@ ul {
     color: var(--text-color, #4d5ae5);
     background-color: var(--button-bg-color, #F4F4FD);
     cursor: pointer;
-    transition: color 0.3s, background-color 0.3s;
 }
 
 .button-portfolio:hover {
- background-color: #404BBF;
- color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .button-portfolio:focus {
-    background-color: #404BBF;
     color: #FFFFFF;
+    background-color: #404BBF;
 }
 
 .portfolio-title {
