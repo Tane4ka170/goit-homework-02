@@ -201,13 +201,13 @@ ul {
 }
 
 .button-portfolio:hover {
-    color: #FFFFFF;
-  background-color: #404BBF;
+ background-color: #404BBF;
+ color: #FFFFFF;
 }
 
 .button-portfolio:focus {
-    color: #FFFFFF;
     background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .portfolio-title {
